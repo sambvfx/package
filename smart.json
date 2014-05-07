@@ -1,0 +1,9 @@
+{
+  "name": "package",
+  "description": "test package luma",
+  "homepage": "https://github.com/sambvfx/package-test",
+  "author": "Sam Bourne <sambvfx@gmail.com> (https://github.com/austinrivas)",
+  "version": "0.0.1",
+  "git": "https://github.com/sambvfx/package-test",
+  "packages": {}
+}

@@ -1,0 +1,17 @@
+<template name="sams-comp">
+    <div id="{{selector}}" class="sams-comp-container">
+        {{#if UI.contentBlock }}
+            {{> UI.contentBlock }}
+        {{else}}
+            {{#with chooseTemplate template }}
+                {{#with .. }}     {{! original arguments to sams-comp}}
+                    {{> .. }}     {{! return value from Template.sams-comp.chooseTemplate( template ) }}
+                {{/with}}
+            {{/with}}
+        {{/if}}
+    </div>
+</template>
+
+<template name="default_sams-comp_template">
+    <code class="{{../../styles}}">default_sams-comp_template needs to be setup</code>
+</template>
